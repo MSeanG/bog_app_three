@@ -3,7 +3,7 @@ class CreateCreatures < ActiveRecord::Migration[5.1]
     create_table :creatures do |t|
       t.string :name
       t.string :description
-      t.string :image_url
+
       t.timestamps
     end
   end
